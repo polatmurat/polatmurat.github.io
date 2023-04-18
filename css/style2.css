@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,100;1,200;1,300;1,600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main-content {
+    height: 100vh;
+    background-image: url('/img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.main-header {
+    padding: 20px;
+    /* background-color: #00ADB5; */
+    position: fixed;
+    width: 100%;
+}
+
+#transparent {
+    width: 100%;
+    height: auto;
+    /* background-color:#000000; */
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+
+.main-header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-header nav a {
+    text-decoration: none;
+    color: #eee;
+    text-shadow: rgb(255, 255, 255) 3px 0 10px;
+}
+
+.main-header .main-header__logo {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+    /* font-size: 15px; */
+}
+
+.main-header .main-header__items {
+    display: flex;
+    list-style-type: none;
+}
+
+.main-header .main-header__item {
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    transition: color .4s;
+}
+
+.main-header .main-header__item a:hover {
+    color: #fff;
+    /* transition: all .2s; */
+    border-bottom: 2px solid #eee;
+    padding-bottom: 2px;
+}
+
+.main-header .main-header__items li:last-child {
+    display: none;
+}
+
+
+/* Services */
+
+.main-services {
+    padding: 20px;
+    text-align: center;
+    background-color: #EEEEEE;
+}
+
+.main-services .container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.main-services .inner-service {
+    margin: 10px 0;
+    padding: 15px 1px;
+}
+
+.main-services .service {
+    color: #222831;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 80px 40px;
+    border-radius: 3%;
+    box-shadow: 2px 3px 10px rgba(128, 128, 128, 0.1);
+    cursor: pointer;
+    transition: box-shadow .3s;
+}
+
+.main-services .service:hover {
+    background-color: #EEEEEE;
+    color: #222831;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 80px 40px;
+    border-radius: 3%;
+    box-shadow: 2px 0 10px rgba(128, 128, 128, 0.5);
+    cursor: pointer;
+}
+
+.main-services .service h2 {
+    margin: 15px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-services .service i {
+    font-size: 30px;
+}
+
+@media (max-width:768px) {        
+    .main-services .container {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .main-content {
+        height: 60vh;
+    }
+}
+
+@media (max-width:1037px) {        
+    .main-services .container {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .main-content {
+        height: 60vh;
+    }
+}
+
+.main-who {
+    
+}
