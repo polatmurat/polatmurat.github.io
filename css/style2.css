@@ -69,9 +69,6 @@ html {
     padding-bottom: 5px;
 }
 
-.main-header .main-header__items li:last-child {
-    display: none;
-}
 
 
 /* Services */
@@ -132,11 +129,18 @@ html {
     .main-header nav {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-header .main-header__logo {
+        margin-bottom: 13px;
     }
 
     .main-header .main-header__items {
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        /* flex-direction: column; */
 
     }
 
