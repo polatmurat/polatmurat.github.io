@@ -167,8 +167,32 @@ html {
     .main-content {
         height: 60vh;
     }
+
+    .main-who .whoami {
+        flex-direction: column;
+    }
+        
 }
 
-/* .main-who {
-    
-} */
+/* About */
+
+.main-who .whoami {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    /* padding: 20px; */
+    background-color: #343a40;
+    color: #fff;
+}
+
+.main-who .whoami .whoami__left {
+    background-image: url('/img/mpol.jpg');
+    background-position: top center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.main-who .whoami .whoami__right {
+    padding: 20px;
+}
