@@ -157,25 +157,23 @@ html {
         height: 60vh;
     }
 
+
+
     .main-who .whoami .whoami__left {
-        background-image: url('/img/mpol.jpg');
-        background-position: top center;
-        background-size: cover;
-        height: 100%;
-        width: 100%;
-    }
+        flex: 100%;
+        height: 200px;
+    } 
     
-    /*
+    
     .main-who .whoami .whoami__right {
+        flex: 100%;
         padding: 20px;
-        background-color:#343a40;
-        opacity: 0.8;
-        filter: alpha(opacity=60);
-        height: 100%;
-        width: 100%;
     }
     
-    */
+    .main-who .whoami {
+        flex-wrap: wrap;
+    }
+    
     
 }
 
@@ -189,57 +187,32 @@ html {
         height: 60vh;
     }
 
-    .main-who .whoami {
-        display: flex;
-        height: 150px;
-        /* flex-direction: column; */
-        /* padding: 20px; */
-        /* background-color: #343a40; */
-        flex-wrap: wrap;
-        color: #fff;
-    }
-
-    .main-who .whoami .whoami__right {
-        display: flex;
-        padding: 20px;
-        /* background-color:#343a40; */
-        background-color: #EEEEEE;
-        /* opacity: 0.8;
-        filter: alpha(opacity=60); */
-        height: 100%;
-        width: 100%;
-        padding: 40px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 14px;
-    }
-        
 }
 
 /* About */
 
 .main-who .whoami {
-    /* display: flex; */
-    height: 300px;
-    /* align-items: center; */
+    display: flex;
     color: #000;
+    height: 300px;
 }
 
 .main-who .whoami .whoami__left {
     background-image: url('/img/mpol.jpg');
     background-position: top center;
     background-size: cover;
-    height: 300px;
     width: 50%;
+    height: 100%;
 }
 
 .main-who .whoami .whoami__right {
     display: flex;
     padding: 20px;
+    height: 100%;
     /* background-color:#343a40; */
     background-color: #EEEEEE;
     /* opacity: 0.8;
     filter: alpha(opacity=60); */
-    height: 100%;
     width: 50%;
     padding: 40px;
     font-family: Arial, Helvetica, sans-serif;
