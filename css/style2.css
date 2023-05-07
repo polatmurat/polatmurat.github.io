@@ -315,4 +315,17 @@ html {
     color: #343a40;
 }
 
+.main-contact .contact .contact__right a {
+    text-decoration: none;
+    color: #343a40;
+    transition: all .4s;
+}
+
+.main-contact .contact .contact__right a:hover {
+    text-decoration: none;
+    background-color: #343a40;
+    color: #fff;
+    padding: 12px;
+    border-radius: 50%;
+}
  
