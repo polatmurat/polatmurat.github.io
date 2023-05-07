@@ -165,24 +165,28 @@ html {
     .main-who .whoami .whoami__right {
         height: 240px !important;
         padding: 10px !important;
+        flex: 100%;
     }
 
     .main-who .whoami .whoami__left {
         height: 240px !important;
+        flex: 100%;
     }
     
     
     .main-contact .contact {
-        flex-direction: column;
         height: 500px !important;
+        display: block !important;
     }
 
     .main-contact .contact .contact__left {
         height: 450px !important;
+        flex: 100%;
     }
 
     .main-contact .contact .contact__right {
-        height: 250px !important;
+        height: 80px !important;
+        flex: 100%;
     }
 
     
@@ -216,7 +220,7 @@ html {
     background-image: url('/img/mpol.jpg');
     background-position: top center;
     background-size: cover;
-    width: 50%;
+    flex: 50%;
     height: 100%;
 }
 
@@ -228,7 +232,7 @@ html {
     background-color: #EEEEEE;
     /* opacity: 0.8;
     filter: alpha(opacity=60); */
-    width: 50%;
+    flex: 50%;
     padding: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -242,7 +246,7 @@ html {
 
 .main-contact .contact-title {
     text-align: center;
-    padding: 20px;
+    margin-top: 30px;
     color: #343a40;
     font-family: 'Poppins', sans-serif;
 }
@@ -254,14 +258,14 @@ html {
 }
 
 .main-contact .contact .contact__left {
+    flex: 50%;
     /* display: flex; */
     padding: 20px;
     height: 470px;
     /* background-color:#343a40; */
-    background-color: #EEEEEE;
+    /* background-color: #EEEEEE; */
     /* opacity: 0.8;
     filter: alpha(opacity=60); */
-    flex: 50%;
     padding: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -303,13 +307,12 @@ html {
 
 .main-contact .contact .contact__right {
     flex: 50%;
-    background-color: #eee;
+    /* background-color: #eee; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     font-size: x-large;
     color: #343a40;
-
 }
 
  
