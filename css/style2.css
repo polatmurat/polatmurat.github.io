@@ -176,17 +176,17 @@ html {
     
     .main-contact .contact {
         height: 500px !important;
-        display: block !important;
+        flex-direction: column-reverse;
+        margin-top: 30px;
+
     }
 
     .main-contact .contact .contact__left {
         height: 450px !important;
-        flex: 100%;
     }
 
     .main-contact .contact .contact__right {
         height: 80px !important;
-        flex: 100%;
     }
 
     
@@ -212,7 +212,7 @@ html {
 
 .main-who .whoami {
     display: flex;
-    color: #000;
+    color: #fff;
     height: 300px;
 }
 
@@ -229,7 +229,7 @@ html {
     padding: 20px;
     height: 100%;
     /* background-color:#343a40; */
-    background-color: #EEEEEE;
+    background-color: #343a40;
     /* opacity: 0.8;
     filter: alpha(opacity=60); */
     flex: 50%;
