@@ -20,7 +20,6 @@ html {
 
 .main-header {
     padding: 20px;
-    /* background-color: #00ADB5; */
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -49,7 +48,6 @@ html {
 .main-header .main-header__logo {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 4px;
-    /* font-size: 15px; */
 }
 
 .main-header .main-header__items {
@@ -65,7 +63,6 @@ html {
 
 .main-header .main-header__item a:hover {
     color: #fff;
-    /* transition: all .2s; */
     border-bottom: 2px solid #eee;
     padding-bottom: 5px;
 }
@@ -165,12 +162,10 @@ html {
     .main-who .whoami .whoami__right {
         height: 240px !important;
         padding: 10px !important;
-        flex: 100%;
     }
 
     .main-who .whoami .whoami__left {
         height: 240px !important;
-        flex: 100%;
     }
     
     
@@ -294,6 +289,7 @@ html {
     width: 100%;
     padding: 10px;
     background-color: #343a40;
+    border-radius: 4px;
     color: #fff;
     cursor: pointer;
     margin: 0 auto;
@@ -318,7 +314,7 @@ html {
 .main-contact .contact .contact__right a {
     text-decoration: none;
     color: #343a40;
-    transition: all .4s;
+    transition: all .3s;
 }
 
 .main-contact .contact .contact__right a:hover {
