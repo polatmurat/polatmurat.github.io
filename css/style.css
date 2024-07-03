@@ -48,6 +48,8 @@ html {
 .main-header .main-header__logo {
     font-family: 'Poppins', sans-serif;
     letter-spacing: 4px;
+    color: #eee;
+    text-shadow: rgb(255, 255, 255) 3px 0 10px;
 }
 
 .main-header .main-header__items {
